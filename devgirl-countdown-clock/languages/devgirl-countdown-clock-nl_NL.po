@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Devgirl Countdown Clock\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: af\n"
+
+#: devgirl-countdown-clock/includes/admin-menu.php
+msgid "Basic Usage"
+msgstr "Basisgebruik"
+
+msgid "ADVANCED, Usage with extra parameters"
+msgstr "GEAVANCEERD, Gebruik met extra parameters"
+
+msgid "How to use parameters"
+msgstr "Hoe parameters te gebruiken"
+
+msgid "The countdown clock can be used anywhere you can place the shortcode. You can also use the shortcode more than once on one page."
+msgstr "De aftellingsklok kan overal worden gebruikt waar u de shortcode kunt plaatsen. U kunt de shortcode ook meer dan eens op een pagina gebruiken."
+
+msgid "Use the shortcode below as a template for your own countdown clock"
+msgstr "Gebruik de onderstaande shortcode als sjabloon voor uw eigen aftellingsklok"
+
+#: devgirl-countdown-clock/devgirl-countdown-clock.php:36
+msgid "days"
+msgstr "dagen"
+
+msgid "hours"
+msgstr "uren"
+
+msgid "mins"
+msgstr "minuten"
+
+msgid "secs"
+msgstr "seconden"

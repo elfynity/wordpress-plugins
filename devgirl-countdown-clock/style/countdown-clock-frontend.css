@@ -1,0 +1,137 @@
+@media screen {
+
+/* global */
+.devgirl-countdown-clock{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:10px;
+	
+}
+
+.box{
+	text-align:center;
+	padding:15px 20px;
+	border-radius:5px;
+}
+
+/* block */
+
+
+.default .clock{
+	font-size:34px;
+	font-weight:bold;
+}
+
+.default .text{
+	font-size:16px;
+	text-transform:uppercase;
+}
+
+.default .separator{
+	display:none;
+}
+
+
+/* wedding */
+@font-face {
+  font-family: MoonDance;
+  src: url(../includes/fonts/MoonDance-Regular.ttf) format('truetype');
+	font-weight:400;
+}	
+
+@font-face {
+  font-family: OleoScript;
+  src: url(../includes/fonts/OleoScript-Bold.ttf) format('truetype');
+	font-weight:400;
+}	
+
+.wedding .clock{
+	font-family: OleoScript, serif;
+	font-size:50px;
+	line-height:50px;
+}
+
+.wedding .text{
+	font-family:MoonDance, serif;
+	font-size:34px;
+	line-height:34px;
+	margin-top:-10px;
+}
+
+
+
+
+
+/* sport */
+@font-face {
+  font-family: Anton;
+  src: url(../includes/fonts/Anton-Regular.ttf) format('truetype');
+
+}	
+
+@font-face {
+  font-family: ShareTech;
+  src: url(../includes/fonts/ShareTechMono-Regular.ttf) format('truetype');
+
+}	
+
+
+.sport .clock{
+	font-family: Anton, sans-serif;
+	font-size:46px;
+	line-height:55px;
+}
+
+.sport .text{
+	font-family:ShareTech, sans-serif;
+	font-size:22px;
+	line-height:28px;
+
+}
+
+
+
+} /* media screen */
+
+
+
+
+
+
+
+
+@media only screen  
+and (max-width : 440px) {
+.devgirl-countdown-clock{
+	gap:5px;
+	
+}
+
+.box{
+	padding:5px 10px;
+
+}
+
+.default .clock{
+	font-size:41px;
+}
+
+.default .text{
+	font-size:16px;
+}
+
+.wedding .clock{
+	font-size:42px;
+	line-height:42px;
+}
+
+.wedding .text{
+	font-size:30px;
+	line-height:30px;
+	margin-top:-7px;
+}
+
+
+
+}

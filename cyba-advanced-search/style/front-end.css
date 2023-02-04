@@ -1,0 +1,148 @@
+@media screen {
+	
+	
+/* page with sidebar css */
+#cyba-page-content{
+}
+
+#cyba-page-sidebar{
+	float:left;
+	width:250px;
+	padding:30px 2%;	
+}
+
+
+#cyba-page-right-content{
+	padding:30px 3%;
+	width:calc(90% - 251px);
+	float:left;
+	border-left:1px solid #f6f6f6;
+}
+
+#cyba-page-right-content h1{
+	text-align:left;
+	margin-top:0;
+}
+
+.cyba-page-wrapper{
+	max-width:960px;
+}
+
+
+#cyba-sidebar-articles .cyba-widget-content{
+	padding:10px;
+	margin:0 0 20px 0;
+}
+
+#cyba-sidebar-articles .cyba-widget-content ul{
+	margin:0 0 0 4px;
+	padding:0;
+	border-left:1px solid #ddd;
+	padding-left:10px;
+}
+
+#cyba-sidebar-articles .cyba-widget-content li{
+	margin-bottom:0;
+	list-style:none;
+}
+
+
+
+
+
+
+#cyba-page-sidebar p.cyba-widget-title{
+	font-size: 16px;
+	font-weight: 700;
+	position: relative;
+	margin-bottom: 0;
+	padding-bottom: 6px;
+	margin-top:0;
+}
+
+/*
+p.widget-title::after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	bottom: -4px;
+	left: 0;
+	width: 30px;
+	background-color: #777;
+}
+*/
+		
+	
+
+	
+	
+
+
+
+
+
+
+	
+	
+/* directory */
+#cyba-listings{
+	display:flex;
+	flex-wrap:wrap;
+	align-items: flex-start;
+	justify-content:flex-start;	
+}
+
+.cyba-listing{
+	flex: 1 1 200px; /* allows it to grow (1), shrink(1) and sets the initial size (200px) */
+	margin:10px;
+	max-width:300px;
+	margin-bottom:30px;
+}
+
+.cyba-listing h4{
+	margin:0;
+}
+
+
+
+
+span.cyba-search-meta-title,
+span.cyba-search-meta-cats{
+	font-size:15px; 
+	
+}
+/* END directory */
+
+
+
+/* pagination */
+#cyba-pagination{
+	border-top:1px solid #f6f6f6;
+	padding-top:20px;
+}
+
+#cyba-pagination a.prev, 
+#cyba-pagination a.next{
+	background-color:#f6f6f6;
+	color:black;
+	padding:10px 25px;
+	
+}
+
+
+#cyba-pagination a.prev:hover, 
+#cyba-pagination a.next:hover{
+	background-color:#ddd;
+}
+
+#cyba-pagination a.page-numbers{
+	padding:10px;
+}
+
+#cyba-pagination span.current{
+	border:1px solid #ccc;
+	padding:10px;
+}
+
+/* END pagination */
+}

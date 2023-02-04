@@ -1,0 +1,148 @@
+@media screen {
+#devgirl-slider-wrapper {
+  position: relative;
+  overflow: hidden;
+	padding:0 30px;
+}
+
+#devgirl-slider-wrapper .slides-container {
+  height: auto;
+  width: 100%;
+  display: flex;
+	align-items:center;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+	cursor: progress;
+}
+
+#devgirl-slider-wrapper .slide {
+  width: 100%;
+  height: auto;
+  flex: 1 0 50%;
+	text-align:center;
+	border-radius:5px;
+		
+}
+
+#devgirl-slider-wrapper .slide-inner{
+	border-radius:10px;	
+	padding:5%;	
+}
+
+#devgirl-slider-wrapper .plain .slide-inner{
+	margin:20px;
+	background-color:white;
+}
+
+
+/* slide options from dropdown */
+#devgirl-slider-wrapper .shadow .slide-inner{
+	margin:20px;
+	box-shadow: 7px 7px 13px rgba(0, 0, 0, 0.3);;
+	background-color:white;
+}
+
+
+#devgirl-slider-wrapper .outline .slide-inner{
+	margin:20px;
+	border:1px solid #ccc;
+	background-color:white;
+}
+
+
+#devgirl-slider-wrapper .dark .slide-inner{
+	margin:20px;
+	background-color:#222;
+	color:#bbb;
+	border:1px solid #666;
+}
+
+#devgirl-reviews-container .dark span.quote, 
+#devgirl-reviews-container .dark p.author{
+	color:white;
+}
+/* END slide options from dropdown */
+
+
+
+
+#devgirl-slider-wrapper .slide-arrow {
+  position: absolute;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 60px;
+  border: none;
+  width: 30px;
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+  opacity: 0.5;
+	background-color:#ccc;
+  transition: opacity 100ms;
+}
+
+#devgirl-slider-wrapper .slide-arrow:hover,
+#devgirl-slider-wrapper .slide-arrow:focus {
+  opacity: 1;
+}
+
+#devgirl-slider-wrapper #slide-arrow-prev {
+  left: 0;
+  border-radius: 30px;
+}
+
+#devgirl-slider-wrapper #slide-arrow-next {
+  right: 0;
+  border-radius: 30px
+}
+
+
+
+#devgirl-reviews-container span.quote{
+	font-size:80px;
+	line-height:80px;
+	display:block;
+	height:50px;
+	font-family:times;
+	color:#ccc;
+}
+
+#devgirl-reviews-container p.text{
+	margin:0;
+}
+
+#devgirl-reviews-container p.author{
+	font-weight:bold;
+	font-size:18px;
+	font-style:italic;
+	font-family:times;
+	margin:0;
+}
+
+
+
+
+}
+
+
+
+@media only screen 
+and (max-width : 768px) {
+	#devgirl-slider-wrapper .slides-container {
+	cursor: grab;
+}
+
+
+#devgirl-slider-wrapper .slide {
+  width: 100%;
+  height: auto;
+  flex: 1 0 100%;
+	text-align:center;
+	border-radius:5px;
+}
+}

@@ -1,0 +1,26 @@
+@media screen {
+.clock-countdown-wrap, 
+.clock-countdown-wrap li, 
+.clock-countdown-wrap p{
+
+}
+
+.clock-countdown-wrap ul{
+	list-style:disc;
+	margin:20px;
+}
+
+.clock-countdown-wrap ul ul{
+	list-style:circle;
+}
+
+.clock-countdown-wrap li{
+	
+}
+
+.clock-countdown-wrap p.heading{
+	font-weight:bold;
+}
+
+
+}

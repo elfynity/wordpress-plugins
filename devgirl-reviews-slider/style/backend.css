@@ -1,0 +1,95 @@
+@media screen {
+#devgirl-reviews .clear-margin{
+	clear:both;
+	height:20px;
+}
+
+#devgirl-reviews p,submit{
+	margin:0;
+}
+
+#devgirl-reviews-container{
+	display:flex;
+	gap:25px;
+	flex-wrap:wrap;
+	margin-bottom:30px;
+	justify-content:center;
+}	
+	
+#devgirl-reviews-container .review{
+	padding:20px;
+	padding-right:50px;
+	background-color:white;
+	box-shadow: 7px 7px 13px #bbb;
+	border-radius:3px;
+	position:relative;
+	flex: 1 1 200px;
+	max-width:350px;
+	text-align:center;
+}
+
+#devgirl-reviews-container .review span.quote{
+	font-size:80px;
+	line-height:60px;
+	font-family:times;
+	color:#888;
+}
+
+#devgirl-reviews-container .review p.text{
+	margin:0;
+}
+
+#devgirl-reviews-container .review p.author{
+	font-weight:bold;
+	font-size:18px;
+	font-style:italic;
+	font-family:times;
+	margin:0;
+}
+
+#devgirl-reviews-container .review #delete-button{
+	position:absolute;
+	top:5px;
+	right:5px;
+}
+
+#devgirl-reviews-container #delete-button input[type=submit]{
+	font-size:12px;
+	color:red;
+	border:0;
+	cursor:pointer;
+	padding:10px;
+	border-radius:3px;
+
+}
+
+
+
+
+#devgirl-reviews-container .review-input textarea{
+	padding:5px;
+	width:300px;
+}
+
+
+#devgirl-reviews-container input {
+	font-size:14px;
+}
+
+
+p.error-message{
+	font-size:16px;
+	color:red;
+	font-weight:bold;
+	padding:5px;
+	border:1px solid red;
+	display:inline-block;
+	margin-bottom:15px !important;
+	border-radius:3px;
+}
+
+
+
+
+
+}
